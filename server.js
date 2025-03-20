@@ -5,7 +5,7 @@ require('dotenv').config();
 const app = express();
 const studentRoutes = require('./routes/studentRoutes');
 
-// Midd
+// Middleware
 app.use(express.json());
 
 // Routes
