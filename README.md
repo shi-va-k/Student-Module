@@ -43,3 +43,20 @@ A RESTful API built with **Node.js**, **Express.js**, and **MongoDB** to manage 
 | PUT    | `/api/students/:regNo`         | Update student details             
 | DELETE | `/api/students/:regNo`         | Soft delete (mark inactive)        
 
+### ✅ Example Flow:
+1. **Open Postman App**
+2. Use the above API endpoints
+3. Pass required JSON data in Body (for POST/PUT)
+4. Check the responses from the server
+
+
+---
+
+## 📌 Note:
+- Make sure your database is running
+- Check MongoDB/Postgres URL correctly in `.env`
+- All API responses are in JSON
+
+---
+
+## ✅ Done! Now your Student Module API is up and running. 🎉
